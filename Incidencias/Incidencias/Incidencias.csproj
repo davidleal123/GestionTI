@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C09C62FD-27B9-4D69-B309-7B81534C71D9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Incidencias</RootNamespace>
+    <AssemblyName>Incidencias</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Libreria1">
+      <HintPath>..\..\..\..\..\..\Downloads\Libreria1.dll</HintPath>
+    </Reference>
+    <Reference Include="Metodos">
+      <HintPath>..\..\..\..\..\..\Documents\Visual Studio 2013\Projects\Metodos\Metodos\bin\Debug\Metodos.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="frmAltaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaEmpleado.Designer.cs">
+      <DependentUpon>frmAltaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaEquipo.Designer.cs">
+      <DependentUpon>frmAltaEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaIncidencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaIncidencia.Designer.cs">
+      <DependentUpon>frmAltaIncidencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaTecnico.Designer.cs">
+      <DependentUpon>frmAltaTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignaIncidencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignaIncidencia.Designer.cs">
+      <DependentUpon>frmAsignaIncidencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBajaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBajaEmpleado.Designer.cs">
+      <DependentUpon>frmBajaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBajaEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBajaEquipo.Designer.cs">
+      <DependentUpon>frmBajaEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBajaTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBajaTecnico.Designer.cs">
+      <DependentUpon>frmBajaTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaIncidencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaIncidencia.Designer.cs">
+      <DependentUpon>frmConsultaIncidencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.cs">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMuestraTecnicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMuestraTecnicos.Designer.cs">
+      <DependentUpon>frmMuestraTecnicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAltaEmpleado.resx">
+      <DependentUpon>frmAltaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaEquipo.resx">
+      <DependentUpon>frmAltaEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaIncidencia.resx">
+      <DependentUpon>frmAltaIncidencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaTecnico.resx">
+      <DependentUpon>frmAltaTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignaIncidencia.resx">
+      <DependentUpon>frmAsignaIncidencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBajaEmpleado.resx">
+      <DependentUpon>frmBajaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBajaEquipo.resx">
+      <DependentUpon>frmBajaEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBajaTecnico.resx">
+      <DependentUpon>frmBajaTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaIncidencia.resx">
+      <DependentUpon>frmConsultaIncidencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMuestraTecnicos.resx">
+      <DependentUpon>frmMuestraTecnicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

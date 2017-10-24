@@ -1,0 +1,6 @@
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\bin\Release\Metodos.dll
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\bin\Release\Metodos.pdb
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\bin\Release\Libreria1.dll
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\obj\Release\Metodos.csprojResolveAssemblyReference.cache
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\obj\Release\Metodos.dll
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\obj\Release\Metodos.pdb

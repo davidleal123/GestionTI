@@ -1,0 +1,58 @@
+c:\users\carlos\documents\visual studio 2013\Projects\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Incidencias.exe
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Incidencias.pdb
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Libreria1.dll
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEquipo.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.exe
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.exe
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\bin\Debug\Incidencias.exe
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\bin\Debug\Incidencias.pdb
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.csprojResolveAssemblyReference.cache
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEquipo.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaTecnico.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache
+C:\Users\Antoniio\Documents\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEquipo.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmConsultaIncidencia.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmInicio.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\bin\Debug\Incidencias.exe
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\bin\Debug\Incidencias.pdb
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.exe
+C:\Users\Antoniio\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmConsultaIncidencia.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmInicio.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmMenu.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaTecnico.resources
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Metodos.dll
+C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Metodos.pdb

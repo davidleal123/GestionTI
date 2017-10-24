@@ -1,0 +1,11 @@
+c:\users\carlos\documents\visual studio 2013\Projects\Metodos\Metodos\bin\Debug\Metodos.dll
+c:\users\carlos\documents\visual studio 2013\Projects\Metodos\Metodos\bin\Debug\Metodos.pdb
+c:\users\carlos\documents\visual studio 2013\Projects\Metodos\Metodos\obj\Debug\Metodos.csprojResolveAssemblyReference.cache
+c:\users\carlos\documents\visual studio 2013\Projects\Metodos\Metodos\obj\Debug\Metodos.dll
+c:\users\carlos\documents\visual studio 2013\Projects\Metodos\Metodos\obj\Debug\Metodos.pdb
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\bin\Debug\Metodos.dll
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\bin\Debug\Metodos.pdb
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\bin\Debug\Libreria1.dll
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\obj\Debug\Metodos.csprojResolveAssemblyReference.cache
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\obj\Debug\Metodos.dll
+C:\Users\Laptop\Desktop\Inicio\Metodos\Metodos\obj\Debug\Metodos.pdb
