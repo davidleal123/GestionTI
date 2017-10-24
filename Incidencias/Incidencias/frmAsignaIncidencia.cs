@@ -54,7 +54,7 @@ namespace Incidencias
         {
             dataGridView2.Rows.Clear();
             cmbTecnicos.Items.Clear();
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -101,7 +101,7 @@ namespace Incidencias
         {
             dataGridView1.Rows.Clear();
             cmbIncidencia.Items.Clear();
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -132,7 +132,7 @@ namespace Incidencias
         {
             dataGridView1.Rows.Clear();
             cmbIncidencia.Items.Clear();
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -181,7 +181,7 @@ namespace Incidencias
         }
         private void actualizaAdminitrador()
         {
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -209,7 +209,7 @@ namespace Incidencias
         }
         private void actualizaTecnico()
         {
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {

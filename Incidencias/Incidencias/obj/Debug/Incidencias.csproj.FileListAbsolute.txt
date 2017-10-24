@@ -56,3 +56,24 @@ C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Inc
 C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaTecnico.resources
 C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Metodos.dll
 C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Metodos.pdb
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.exe
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Incidencias.exe
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Incidencias.pdb
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Metodos.pdb
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEquipo.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaTecnico.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmConsultaIncidencia.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmInicio.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmMenu.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
+\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache

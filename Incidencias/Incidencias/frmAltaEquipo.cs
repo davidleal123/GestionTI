@@ -31,7 +31,7 @@ namespace Incidencias
         public void ActualizaCombo(ComboBox combo, string con)
         {
             combo.Items.Clear();
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -96,7 +96,7 @@ namespace Incidencias
         private int RegresaClaveDepa(string Departamento)
         {
             int band = -1;
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -159,7 +159,7 @@ namespace Incidencias
                     MessageBox.Show("Información Faltante", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+                string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
                 SqlConnection conn = UsoBD.ConectaBD(strCon);
                 if (conn == null)
                 {

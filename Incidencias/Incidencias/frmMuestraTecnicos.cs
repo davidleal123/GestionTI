@@ -26,7 +26,7 @@ namespace Incidencias
 
         private void frmMuestraTecnicos_Load(object sender, EventArgs e)
         {
-            string strCon = "Data Source=CARLOS-GERMÁN;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
