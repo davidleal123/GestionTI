@@ -28,7 +28,7 @@ namespace Incidencias
         public void ActualizaCombo(ComboBox combo, string con)
         {
             combo.Items.Clear();
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -50,6 +50,7 @@ namespace Incidencias
                 {
                     combo.Items.Add(lector.GetValue(0).ToString());
                 }
+                combo.SelectedIndex = 0;
             }
             conn.Close();
         }
@@ -58,15 +59,25 @@ namespace Incidencias
         {
             ActualizaCombo(cmbDepartamento, "select nombre from departamento");
             cmbEquipo.Enabled = false;
+            cmbDepartamento.SelectedIndex = -1;
         }
 
         private void cmbDepartamento_SelectedIndexChanged(object sender, EventArgs e)
         {
             
-            if (cmbDepartamento.SelectedIndex >= 0)
+            if (cmbDepartamento.SelectedIndex > -1)
             {
-                ActualizaCombo(cmbEquipo, "select equipo from equipo e inner join departamento d on e.departamento=d.id");
-                cmbEquipo.Enabled = true;
+                ActualizaCombo(cmbEquipo, "select equipo from equipo e inner join departamento d on e.departamento=d.id where d.nombre='"+cmbDepartamento.SelectedItem.ToString()+"'");
+                if (cmbEquipo.Items.Count == 0)
+                {
+                    MessageBox.Show("El departamento no tiene equipos asignados");
+                    cmbEquipo.Enabled = false;
+                }
+                else
+                {
+                    cmbEquipo.SelectedIndex = -1;
+                    cmbEquipo.Enabled = true;
+                }
             }
             else
             {
@@ -83,22 +94,13 @@ namespace Incidencias
             {
                 string departamento = cmbDepartamento.SelectedItem.ToString();
                 string descripcion = txtDescripcion.Text;
-                string tipo = "";
-                if (rdbHardware.Checked == true)
-                {
-                    tipo = "Hardware";
-                }
-                else
-                {
-                    tipo = "Software";
-                }
-
-                if (cmbEquipo.SelectedIndex==-1 || string.IsNullOrWhiteSpace(departamento) || string.IsNullOrWhiteSpace(descripcion) || string.IsNullOrWhiteSpace(tipo))
+                
+                if (cmbEquipo.SelectedIndex==-1 || string.IsNullOrWhiteSpace(departamento) || string.IsNullOrWhiteSpace(descripcion))
                 {
                     MessageBox.Show("Información Faltante", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+                string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
                 SqlConnection conn = UsoBD.ConectaBD(strCon);
                 if (conn == null)
                 {
@@ -110,14 +112,14 @@ namespace Incidencias
                 int idEqui = RegresaID("Select id from equipo where equipo='" +cmbEquipo.SelectedItem.ToString() + "'");
                 string prioridad = RegresaPrioridad(departamento);
 
-
-                string strComandoSQL = "insert into incidencia(equipo,departamento,descripcion,tipo,empleado,prioridad,estatus)";
-                strComandoSQL += " values(@equipo,@dep,@des,@tipo,@emp,@pri,@est)";
+                string fecha = DateTime.Now.ToString("yyyy/MM/dd H:mm:ss");
+                string strComandoSQL = "insert into incidencia(equipo,departamento,descripcion,empleado,prioridad,fechaLevantamiento,estatus)";
+                strComandoSQL += " values(@equipo,@dep,@des,@emp,@pri,@fec,@est)";
                 SqlCommand cmd = new SqlCommand(strComandoSQL, conn);
                 cmd.Parameters.AddWithValue("@equipo", idEqui);
                 cmd.Parameters.AddWithValue("@dep", idDep);
                 cmd.Parameters.AddWithValue("@des", descripcion);
-                cmd.Parameters.AddWithValue("@tipo", tipo);
+                cmd.Parameters.AddWithValue("@fec", fecha);
                 cmd.Parameters.AddWithValue("@emp", usuario);
                 cmd.Parameters.AddWithValue("@pri", prioridad);
                 cmd.Parameters.AddWithValue("@est", estatus);
@@ -139,7 +141,7 @@ namespace Incidencias
         private string RegresaPrioridad(string Departamento)
         {
             string band = "";
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -169,7 +171,7 @@ namespace Incidencias
         {
             int band = -1;
             string equi = cmbEquipo.SelectedItem.ToString();
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -204,12 +206,16 @@ namespace Incidencias
         {
             txtDescripcion.Clear();
             cmbDepartamento.SelectedIndex = -1;
-            rdbHardware.Checked = false;
-            rdbSoftware.Checked = false;
+           
             cmbDepartamento.Focus();
             cmbEquipo.Items.Clear();
             cmbEquipo.SelectedIndex = -1;
             
+        }
+
+        private void cmbEquipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

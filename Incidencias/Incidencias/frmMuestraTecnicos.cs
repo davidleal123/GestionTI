@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Libreria1;
-using Metodos;
 
 namespace Incidencias
 {
@@ -19,25 +18,26 @@ namespace Incidencias
             InitializeComponent();
         }
 
-        private void btnAsignar_Click(object sender, EventArgs e)
+        private void btnRegresar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
         private void frmMuestraTecnicos_Load(object sender, EventArgs e)
         {
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
                 MessageBox.Show("Imposible Conectar con BD");
                 return;
             }
-            string comando = "select distinct concat(e.nombre,' ',apellidoPaterno,' ',apellidoMaterno),certificaciones,incidenciasAsignadas from tecnico t inner join empleado e on t.nombre=e.id";
-            SqlDataReader lector = null; lector = UsoBD.Consulta(comando, conn);
+            string con = "select e.nombre, t.especializacion, t.certificaciones, t.incidenciasAsignadas from tecnico t inner join empleado e on t.idEmpleado=e.id   ";
+            SqlDataReader lector = null;
+            lector = UsoBD.Consulta(con, conn);
             if (lector == null)
             {
-                MessageBox.Show("Error en Consulta clave");
+                MessageBox.Show("Error en Consulta combo");
                 conn.Close();
                 return;
             }
@@ -45,7 +45,7 @@ namespace Incidencias
             {
                 while (lector.Read())
                 {
-                    dtgTecnicos.Rows.Add(false,lector.GetValue(0).ToString(), lector.GetValue(1).ToString(), lector.GetValue(2).ToString());
+                    dtgTecnicos.Rows.Add(lector.GetValue(0).ToString(),lector.GetValue(1).ToString(),lector.GetValue(2).ToString(),lector.GetValue(3).ToString());
                 }
             }
             conn.Close();

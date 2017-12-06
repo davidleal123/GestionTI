@@ -56,24 +56,93 @@ C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Inc
 C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaTecnico.resources
 C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Metodos.dll
 C:\Users\Carlos\Desktop\Trabajos Tec\Semestre 7\Gestion de operaciones de TI\Incidencias\Incidencias\bin\Debug\Metodos.pdb
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.exe
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Incidencias.exe
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Incidencias.pdb
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\bin\Debug\Metodos.pdb
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.csprojResolveAssemblyReference.cache
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEquipo.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaTecnico.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmConsultaIncidencia.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmInicio.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmMenu.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
-\\Mac\Home\Documents\GIT\GestionTI\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\bin\Debug\Incidencias.exe
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\bin\Debug\Incidencias.pdb
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmConsultaIncidencia.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmEncuesta.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmEvaluarIncidencia.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmInicio.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmMenu.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmTerminaIncidencia.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.exe
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.csprojResolveAssemblyReference.cache
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaServicio.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioEmpleado.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioEquipo.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioTecnico.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmCatalogoServicios.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraEmpleados.resources
+C:\Users\Antonio Astorga A\Desktop\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraEquipos.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.exe
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\bin\Debug\Incidencias.exe
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\bin\Debug\Incidencias.pdb
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaDepartamento.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaServicio.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioEmpleado.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioEquipo.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioTecnico.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmCatalogoServicios.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmConsultaIncidencia.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmEncuesta.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmEvaluarIncidencia.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmInicio.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMenu.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraEmpleados.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraEquipos.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmTerminaIncidencia.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraDepartamento.resources
+C:\Users\Carlos\Desktop\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioDepartamento.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\bin\Debug\Incidencias.exe.config
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.exe
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.pdb
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaDepartamento.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEmpleado.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaEquipo.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaIncidencia.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaServicio.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAltaTecnico.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmAsignaIncidencia.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioDepartamento.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioEmpleado.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioEquipo.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaCambioTecnico.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmBajaEmpleado.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmCatalogoServicios.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmConsultaIncidencia.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmEncuesta.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmEvaluarIncidencia.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmInicio.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMenu.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraDepartamento.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraEmpleados.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraEquipos.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmMuestraTecnicos.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.frmTerminaIncidencia.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.Properties.Resources.resources
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\obj\Debug\Incidencias.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\bin\Debug\Incidencias.exe
+\\Mac\Home\Documents\Final Incidencias\Incidencias\Incidencias\bin\Debug\Incidencias.pdb

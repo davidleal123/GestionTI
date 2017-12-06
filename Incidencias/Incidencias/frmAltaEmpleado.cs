@@ -36,7 +36,7 @@ namespace Incidencias
         public void ActualizaCombo(ComboBox combo, string con)
         {
             combo.Items.Clear();
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -85,7 +85,7 @@ namespace Incidencias
         private int RegresaClaveDepa(string Departamento)
         {
             int band = -1;
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -138,7 +138,7 @@ namespace Incidencias
                     txtContra.Clear(); txtContra.Focus();
                     return;
                 }*/
-                string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+                string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
                 SqlConnection conn = UsoBD.ConectaBD(strCon);
                 if (conn == null)
                 {
@@ -175,7 +175,7 @@ namespace Incidencias
         public bool BuscaClave(string clave)
         {
             bool band = false;
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -205,28 +205,17 @@ namespace Incidencias
 
         private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+            Metodos.Metodos.ValidaTexto(e, txtNombre, errorProvider1);
         }
 
         private void txtApePat_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-
-            }
+            Metodos.Metodos.ValidaTexto(e, txtApePat, errorProvider1);
         }
 
         private void txtApeMat_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-
-            }
+            Metodos.Metodos.ValidaTexto(e, txtApeMat, errorProvider1);
         }
 
         private void txtCorreo_TextChanged(object sender, EventArgs e)
@@ -252,10 +241,12 @@ namespace Incidencias
 
         private void txtNumCel_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar) || char.IsWhiteSpace(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+            Metodos.Metodos.ValidaNumero(e,txtNumCel,errorProvider1);
+        }
+
+        private void cmbCargo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

@@ -52,14 +52,14 @@ namespace Incidencias
         public string BuscaCargo(string usuario, string clave)
         {
             string band = "";
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
                 MessageBox.Show("Imposible Conectar con BD");
                 return band;
             }
-            string comando = "Select cargo from empleado where id= " + usuario + "and contraseña=" + clave;
+            string comando = "Select cargo from empleado where id= " + usuario + "and contraseña='" + clave+"'";
             SqlDataReader lector = null;
             lector = UsoBD.Consulta(comando, conn);
             if (lector == null)
@@ -82,19 +82,19 @@ namespace Incidencias
         public bool BuscaUsuario(string usuario, string clave)
         {
             bool band = false;
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
                 MessageBox.Show("Imposible Conectar con BD");
                 return band;
             }
-            string comando = "Select * from empleado where id= " + usuario +"and contraseña="+clave;
+            string comando = "Select * from empleado where id=" + usuario +"and contraseña='"+clave+"'";
             SqlDataReader lector = null;
             lector = UsoBD.Consulta(comando, conn);
             if (lector == null)
             {
-                MessageBox.Show("Error en Consulta");
+                MessageBox.Show("Error en Consulta usuario");
                 conn.Close();
                 return band;
             }

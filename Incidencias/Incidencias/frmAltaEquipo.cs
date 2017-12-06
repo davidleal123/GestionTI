@@ -31,7 +31,7 @@ namespace Incidencias
         public void ActualizaCombo(ComboBox combo, string con)
         {
             combo.Items.Clear();
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -78,7 +78,7 @@ namespace Incidencias
 
         private void txtEquipo_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            Metodos.Metodos.ValidaTexto(e, txtEquipo, errorProvider1);
         }
 
         private void txtMarca_TextChanged(object sender, EventArgs e)
@@ -96,7 +96,7 @@ namespace Incidencias
         private int RegresaClaveDepa(string Departamento)
         {
             int band = -1;
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -151,15 +151,15 @@ namespace Incidencias
                 string modelo = txtModelo.Text;
                 string descripcion = txtDescripcion.Text;
                 int garantia =Convert.ToInt32(cmbGarantia.SelectedItem.ToString());
-                string fechaCompra = dtpFechaCompra.SelectionEnd.ToShortDateString();
+                string fechaCompra = dtpFechaCompra.SelectionEnd.ToString("yyyy/MM/dd");
                 string Depa = cmbDepartamento.SelectedItem.ToString();
-
+                MessageBox.Show(fechaCompra);
                 if (string.IsNullOrWhiteSpace(equipo) || string.IsNullOrWhiteSpace(marca) || string.IsNullOrWhiteSpace(modelo) || string.IsNullOrWhiteSpace(descripcion) || string.IsNullOrWhiteSpace(cmbGarantia.SelectedItem.ToString()) || string.IsNullOrWhiteSpace(fechaCompra) || string.IsNullOrWhiteSpace(Depa))
                 {
                     MessageBox.Show("Información Faltante", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+                string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
                 SqlConnection conn = UsoBD.ConectaBD(strCon);
                 if (conn == null)
                 {

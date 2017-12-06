@@ -22,8 +22,8 @@ namespace Incidencias
         string[] especializaciones = { "REDES", "PROGRAMACION JAVA", "PROGRAMACION C++", "REPARACION HARDWARE","REPARACION SOFTWARE","DESARROLLO WEB","CCNA 1","CCNA2","CCNA3","CCNA4","OTRO" };
         private void frmAltaTecnico_Load(object sender, EventArgs e)
         {
-            ActualizaCombo(cmbNombre, "select distinct concat(e.nombre,' ',apellidoPaterno,' ',apellidoMaterno) from empleado e join tecnico t on t.nombre!=e.id");
-            ActualizaCombo(cmbId, "select id from empleado except(select nombre from tecnico)");
+            ActualizaCombo(cmbNombre, "select distinct concat(e.nombre,' ',apellidoPaterno,' ',apellidoMaterno) from empleado e right join tecnico t on t.idEmpleado!=e.id");
+            ActualizaCombo(cmbId, "select id from empleado except(select idEmpleado from tecnico)");
             for (int i = 0; i < especializaciones.Length; i++)
             {
                 cmbEspecializacion.Items.Add(especializaciones[i]);
@@ -32,7 +32,8 @@ namespace Incidencias
         public void ActualizaCombo(ComboBox combo, string con)
         {
             combo.Items.Clear();
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            //Data Source=DESKTOP-HRH1LBC\ANTONIOPC;Initial Catalog=incidencias;Integrated Security=True
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
@@ -90,14 +91,14 @@ namespace Incidencias
         public bool BuscaTecnico(string clave)
         {
             bool band = false;
-            string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+            string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
             SqlConnection conn = UsoBD.ConectaBD(strCon);
             if (conn == null)
             {
                 MessageBox.Show("Imposible Conectar con BD");
                 return band;
             }
-            string comando = "Select * from tecnico where nombre=" + clave + "";
+            string comando = "Select * from tecnico where idEmpleado=" + clave + "";
             SqlDataReader lector = null; lector = UsoBD.Consulta(comando, conn);
             if (lector == null)
             {
@@ -128,7 +129,7 @@ namespace Incidencias
                     MessageBox.Show("Información Faltante", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
-                string strCon = "Data Source=DAVIDLEALFLEF4C;Initial Catalog=incidencias;Integrated Security=True";
+                string strCon = "Data Source=DAVIDLEALFLEF4C\\SQLEXPRESS;Initial Catalog=incidencias;Integrated Security=True";
                 SqlConnection conn = UsoBD.ConectaBD(strCon);
                 if (conn == null)
                 {
@@ -159,6 +160,16 @@ namespace Incidencias
                 conn.Close();
                 Limpia();
             }
+        }
+
+        private void cmbEspecializacion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCertificacion_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

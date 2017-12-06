@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMuestraTecnicos));
             this.dtgTecnicos = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnAsignar = new System.Windows.Forms.Button();
+            this.certific = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnRegresar = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgTecnicos)).BeginInit();
             this.SuspendLayout();
             // 
             // dtgTecnicos
             // 
+            this.dtgTecnicos.BackgroundColor = System.Drawing.Color.MediumPurple;
             this.dtgTecnicos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgTecnicos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
             this.Column2,
             this.Column3,
-            this.Column4});
+            this.Column4,
+            this.certific});
             this.dtgTecnicos.Dock = System.Windows.Forms.DockStyle.Top;
             this.dtgTecnicos.Location = new System.Drawing.Point(0, 0);
             this.dtgTecnicos.Name = "dtgTecnicos";
-            this.dtgTecnicos.Size = new System.Drawing.Size(443, 435);
+            this.dtgTecnicos.Size = new System.Drawing.Size(439, 435);
             this.dtgTecnicos.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Seleccionado";
-            this.Column1.Name = "Column1";
             // 
             // Column2
             // 
@@ -70,42 +70,64 @@
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "No. Incidencias Asignadas";
+            this.Column4.HeaderText = "Certificaciones";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
-            // btnAsignar
+            // certific
             // 
-            this.btnAsignar.Location = new System.Drawing.Point(163, 464);
-            this.btnAsignar.Name = "btnAsignar";
-            this.btnAsignar.Size = new System.Drawing.Size(109, 27);
-            this.btnAsignar.TabIndex = 1;
-            this.btnAsignar.Text = "Asignar";
-            this.btnAsignar.UseVisualStyleBackColor = true;
-            this.btnAsignar.Click += new System.EventHandler(this.btnAsignar_Click);
+            this.certific.HeaderText = "No. Incidencias Asignadas";
+            this.certific.Name = "certific";
+            this.certific.ReadOnly = true;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(162, 441);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(109, 27);
+            this.btnRegresar.TabIndex = 1;
+            this.btnRegresar.Text = "Regresar";
+            this.toolTip1.SetToolTip(this.btnRegresar, "Regresará a la ventana anterior");
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.MediumPurple;
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(-90, 474);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(636, 32);
+            this.textBox2.TabIndex = 42;
             // 
             // frmMuestraTecnicos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 502);
-            this.Controls.Add(this.btnAsignar);
+            this.ClientSize = new System.Drawing.Size(439, 503);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.dtgTecnicos);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMuestraTecnicos";
-            this.Text = "frmMuestraTecnicos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmMuestraTecnicos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgTecnicos)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.DataGridView dtgTecnicos;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
+        private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Button btnAsignar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn certific;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
